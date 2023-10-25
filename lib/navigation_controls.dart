@@ -18,7 +18,7 @@ class NavigationControls extends StatelessWidget {
               await controller.goBack();
             } else {
               messenger.showSnackBar(
-                const SnackBar(content: Text('No back history item')),
+                const SnackBar(content: Text('No back history item gagga')),
               );
               return;
             }
